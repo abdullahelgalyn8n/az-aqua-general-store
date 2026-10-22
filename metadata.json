@@ -1,0 +1,6 @@
+{
+  "name": "أكوا جنرال - Aqua General | حلول تنقية ومعالجة المياه",
+  "description": "شركة أكوا جنرال الرائدة في مصر لتكنولوجيا فلاتر المياه المنزلية، أنظمة التدفق المباشر، ومحطات تحلية ومعالجة المياه الصناعية والتجارية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
