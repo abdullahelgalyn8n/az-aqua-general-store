@@ -278,34 +278,7 @@ export const PageUrlBar: React.FC<PageUrlBarProps> = ({
           )}
         </nav>
 
-        {/* Dedicated Page Link Display & Copy Button */}
-        <div className="flex items-center gap-2 bg-white border border-slate-300 rounded-lg px-2.5 py-1 shadow-2xs">
-          <Link2 className="w-3.5 h-3.5 text-sky-700 shrink-0" />
-          <span
-            dir="ltr"
-            className="font-mono text-xs font-semibold text-slate-800 select-all truncate max-w-[210px] sm:max-w-xs"
-          >
-            aquageneral.online{currentRoute.path}
-          </span>
-          <button
-            type="button"
-            onClick={handleCopyUrl}
-            className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-slate-100 hover:bg-sky-50 text-slate-800 hover:text-sky-800 font-bold text-xs transition-colors border border-slate-200 cursor-pointer shrink-0"
-            title="نسخ رابط الصفحة المباشر"
-          >
-            {copied ? (
-              <>
-                <Check className="w-3 h-3 text-emerald-700" />
-                <span className="text-emerald-800">تم النسخ</span>
-              </>
-            ) : (
-              <>
-                <Copy className="w-3 h-3" />
-                <span>نسخ الرابط</span>
-              </>
-            )}
-          </button>
-        </div>
+        
       </div>
     </div>
   );
