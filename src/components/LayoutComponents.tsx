@@ -220,7 +220,7 @@ export const PageUrlBar: React.FC<PageUrlBarProps> = ({
   onNavigate,
 }) => {
   const [copied, setCopied] = useState(false);
-  const fullDisplayUrl = `https://aquageneral.online${currentRoute.path}`;
+  const fullDisplayUrl = `https://az-aqua-general-store.pages.dev${currentRoute.path}`;
 
   const handleCopyUrl = () => {
     const urlToCopy =
